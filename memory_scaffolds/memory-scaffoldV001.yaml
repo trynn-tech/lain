@@ -1,0 +1,40 @@
+memory_scaffold:
+  id: MS-20250306-0001 # Unique identifier for the scaffold instance
+  version: '1.0.0' # Semantic versioning
+  topic: 'Optimized Communication Layer' # Main subject
+  key_points:
+    - 'YAML format for easy parsing and grep-based searches'
+    - 'Hierarchical relationship mapping for structured navigation'
+    - 'Lossy retention for token efficiency'
+  decisions:
+    - 'Confirmed: Transition to a structured scaffold system'
+    - 'Tentative: Review effectiveness and iterate as needed'
+  open_questions:
+    - 'How often should context be pruned for maximum efficiency?'
+    - 'Should we allow external API hooks for dynamic updates?'
+  next_steps:
+    - 'Deploy scaffold structure into immediate workflow'
+    - 'Refine pruning logic to balance recall and efficiency'
+  references:
+    - 'artifact:exomind:Prototype-20250306'
+  summary: 'This scaffold provides an optimized communication framework for structured AI discussions.'
+  changes:
+    - 'Initial YAML scaffold creation'
+  resources:
+    - 'Reference documentation on hierarchical context management'
+  constraints:
+    - 'Must remain lightweight and efficient'
+    - 'Needs to be adaptable to evolving project needs'
+  related_scaffolds:
+    - id: MS-20250306-0002
+      relationship: 'successor'
+  sub_scaffolds:
+    - id: MS-20250306-0003
+      topic: 'Implementation Adjustments'
+      key_points:
+        - 'Versioning strategy refinement'
+        - 'Storage optimization for lossy context management'
+  toggle_mode:
+    default: true # Uses scaffold normally
+    reset_mode: false # Uses scaffold but challenges assumptions
+    full_reset: false # Ignores scaffold entirely
